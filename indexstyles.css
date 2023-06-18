@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+section {
+    position: relative;
+    height: 100px;
+    text-align: right;
+}
+.mainnav {
+    position:relative;
+    display: inline-block;
+    text-align: right;
+    margin-right: 84px;
+    margin-top: 25px;
+}
+.mainnav a {
+    font-family:'Poppins', sans-serif ;
+    font-weight: 500;
+    font-size:16px;
+    color: black;
+    text-decoration: none;
+   padding: 65px;
+}
+
+.homecontent {
+    position: absolute;
+    height: 600px;
+    width: 1110px;
+    margin-left: 390px;
+    margin-right: 390PX;
+    margin-top: 45px;
+    margin-bottom: 125px;
+}
+
+.FGuitar {
+    position: absolute;
+    height: 600px;
+}
+
+.greetings {
+    position:absolute;
+    margin-left: 670px;
+    margin-top: 225px;
+}
+#hi {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 96px;
+    margin: 0px;
+    height: 120px;
+}
+#myName {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-bottom: 9px;
+}
+#fgerald {
+    color: #13858C;
+}
+
+.abtme {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #13858C;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top:7px;
+    padding-bottom: 7px;
+    margin: 0px;
+    margin-left: 5px;
+    border: 2px solid #13858C;
+    border-radius: 25px;
+}
+
+.abtme:hover {
+    color: white;
+    background-color: #13858C;
+}
+
+a{
+    text-decoration: none;
+}
+
