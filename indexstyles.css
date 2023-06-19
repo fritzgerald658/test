@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0px;
 }
@@ -39,8 +42,12 @@ body {
     text-decoration: none;
     padding-left:7em;
 }
+.mainnav a:hover {
+    color: #13858C;
+    font-weight: 800;
+}
 
-.firstpage {
+#firstpage {
     display: flex;
 }
 .homecontent {
@@ -97,6 +104,7 @@ body {
     margin: 0px;
     border: 2px solid #13858C;
     border-radius: 25px;
+    width: 135px;
 }
 
 .abtme:hover {
