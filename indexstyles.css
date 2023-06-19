@@ -1,44 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-section {
-    position: relative;
-    height: 100px;
-    text-align: right;
+body {
+    margin: 0px;
+}
+
+.navbars {
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+}
+#logo {
+    position: absolute;
+    justify-content: left;
+    top: 2%;
+    left: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:25px;
+}
+#logobold {
+    font-weight: 800;
 }
 .mainnav {
-    position:relative;
-    display: inline-block;
-    text-align: right;
-    margin-right: 84px;
-    margin-top: 25px;
+    display: flex;
+    margin-right: 3em;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .mainnav a {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
     font-family:'Poppins', sans-serif ;
     font-weight: 500;
     font-size:16px;
     color: black;
     text-decoration: none;
-   padding: 65px;
+    padding-left:7em;
 }
 
+.firstpage {
+    display: flex;
+    background-color:aliceblue;
+}
 .homecontent {
-    position: absolute;
-    height: 600px;
-    width: 1110px;
-    margin-left: 390px;
-    margin-right: 390PX;
-    margin-top: 45px;
-    margin-bottom: 125px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 4em;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .FGuitar {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 600px;
 }
 
 .greetings {
-    position:absolute;
-    margin-left: 670px;
-    margin-top: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 7em;
 }
 #hi {
     font-family: 'Poppins', sans-serif;
@@ -69,7 +96,6 @@ section {
     padding-top:7px;
     padding-bottom: 7px;
     margin: 0px;
-    margin-left: 5px;
     border: 2px solid #13858C;
     border-radius: 25px;
 }
@@ -83,3 +109,8 @@ a{
     text-decoration: none;
 }
 
+
+
+.backcolor {
+    background-color: rgb(11, 83, 146);
+}
