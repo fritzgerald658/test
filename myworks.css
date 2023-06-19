@@ -1,0 +1,44 @@
+#workstitle {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+#pos__img{
+    height: 360px;
+    width: 530px;
+    border-radius: 16px;
+}
+#works__pos {
+    display: flex;
+    justify-content: center;
+    gap:3%;
+    margin: 5%;
+}
+#pos__description p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin: 0px;
+}
+#website__img {
+    height: 360px;
+    width: 530px;
+    border-radius: 16px;
+}
+#works__website {
+    display: flex;
+    justify-content: center;
+    gap:3%;
+    margin-bottom: 5%;
+}
+
+#website__description {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
